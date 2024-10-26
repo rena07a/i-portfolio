@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Itaya Uta Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+     
+<body>
+
+<!---------- header ---------->
+<header>
+  <h1>uta itaya</h1>
+  <p>板谷 うた</p>
+  <nav>
+      <a href="#gallery">gallery</a>
+      <a href="#about">about</a>
+      <a href="#exhibition">exhibition</a>
+      <a href="https://www.tagboat.com/products/list.php?author_id=1006990" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="16" height="16"></a>
+      <a href="#contact">contact</a>
+  </nav>
+  <a href="https://www.instagram.com/uta_itaya/" target="_blank" class="Instagram-icon"><img src="img/instagram.png" alt="Instagramアイコン" width="24" height="24"></a>
+</header>
+
+<!---------- hamburger menu ---------->
+<div class="hamburger-menu">
+    <input type="checkbox" id="menu-btn-check">
+    <label for="menu-btn-check" class="menu-btn"><span></span></label>
+    <!--ここからメニュー-->
+    <div class="menu-content" id="menu-content">
+        <ul>
+            <li>
+                <a href="#gallery">gallery</a>
+            </li>
+            <li>
+                <a href="#about">about</a>
+            </li>
+            <li>
+                <a href="#exhibition">exhibition</a>
+            </li>
+            <li>
+                <a href="https://www.tagboat.com/products/list.php?author_id=1006990" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="16" height="16"></a>
+            </li>
+            <li>
+                <a href="#contact">contact</a>
+            </li>
+        </ul>
+    </div>
+    <!--ここまでメニュー-->
+</div>
+
+<script>
+   $('#menu-content a[href]').on('click', function(event) {
+    // メニューを閉じる
+    $('#menu-btn-check').prop('checked', false);
+});
+</script>
+
+
+
+<!---------- gallery ---------->
+<section >
+  <div class="gallery-items" id="gallery">
+    <figure class="photo A">
+        <a href="#popupA">
+            <img src="img/A.jpg" alt="Hugging circle - turquoise blue" width="360" height="360">
+            <figcaption>Hugging circle - turquoise blue</figcaption>
+        </a>
+    </figure>
+    <figure class="photo B">
+        <a href="#popupB">
+            <img src="img/B.jpg" alt="Peaceful-3rd" width="360" height="360">
+            <figcaption>Peaceful-3rd</figcaption>
+        </a>
+    </figure>
+    <figure class="photo C">
+        <a href="#popupC">
+            <img src="img/C.jpg" alt="再会" width="360" height="360">
+            <figcaption>再会</figcaption>
+        </a>
+    </figure>
+    <figure class="photo D">
+        <a href="#popupD">
+            <img src="img/D.jpg" alt="peaceful" width="360" height="751">
+            <figcaption>peaceful</figcaption>
+        </a>
+    </figure>
+    <figure class="photo E">
+        <a href="#popupE">
+            <img src="img/E.jpg" alt="Just be yourself-pink&khaki" width="751" height="751">
+            <figcaption>Just be yourself-pink&khaki</figcaption>
+        </a>
+    </figure>
+    <figure class="photo F">
+        <a href="#popupF">
+            <img src="img/F.jpg" alt="恋占い" width="360" height="360">
+            <figcaption>恋占い</figcaption>
+        </a>
+    </figure>
+    <figure class="photo G">
+        <a href="#popupG">
+            <img src="img/G.jpg" alt="Hugging circle - blood red" width="360" height="360">
+            <figcaption>Hugging circle - blood red</figcaption>
+        </a>
+    </figure>
+    <figure class="photo H">
+        <a href="#popupH">
+            <img src="img/H.jpg" alt="和み" width="360" height="360">
+            <figcaption>和み</figcaption>
+        </a>
+    </figure>
+    <figure class="photo I">
+        <a href="#popupI">
+            <img src="img/I.jpg" alt="誠心-silver2" width="360" height="360">
+            <figcaption>誠心-silver2</figcaption>
+        </a>
+    </figure>
+    <figure class="photo J">
+        <a href="#popupJ">
+            <img src="img/J.jpg" alt="Crack of light" width="360" height="360">
+            <figcaption>Crack of light</figcaption>
+        </a>
+    </figure>
+    <figure class="photo K">
+        <a href="#popupK">
+            <img src="img/K.jpg" alt="Shadow - blood red & blue green" width="360" height="360">
+            <figcaption>Shadow - blood red & blue green</figcaption>
+        </a>
+    </figure>
+    <figure class="photo L">
+        <a href="#popupL">
+            <img src="img/L.jpg" alt="Hugging circle - yellow & gray" width="751" height="751">
+            <figcaption>Hugging circle - yellow & gray
+            </figcaption>
+        </a>
+    </figure>
+    <figure class="photo M">
+        <a href="#popupM">
+            <img src="img/M.jpg" alt="peaceful-2nd" width="360" height="751">
+            <figcaption>peaceful-2nd</figcaption>
+        </a>
+    </figure>
+    <figure class="photo N">
+        <a href="#popupN">
+            <img src="img/N.jpg" alt="Peaceful-red" width="360" height="751">
+            <figcaption>Peaceful-red</figcaption>
+        </a>
+    </figure>
+    <figure class="photo O">
+        <a href="#popupO">
+            <img src="img/O.jpg" alt="Circle of peace-large" width="751" height="751">
+            <figcaption>Circle of peace-large</figcaption>
+        </a>
+    </figure>
+    <figure class="photo P">
+        <a href="#popupP">
+            <img src="img/P.jpg" alt="進" width="360" height="360">
+            <figcaption>進</figcaption>
+        </a>
+    </figure>
+    <figure class="photo Q">
+        <a href="#popupQ">
+            <img src="img/Q.jpg" alt="Hugging circle - beige & green" width="360" height="360">
+            <figcaption>Hugging circle - beige & green</figcaption>
+        </a>
+    </figure>
+    <figure class="photo R">
+        <a href="#popupR">
+            <img src="img/R.jpg" alt="誠心-silver1" width="360" height="360">
+            <figcaption>誠心-silver1</figcaption>
+        </a>
+    </figure>
+    <figure class="photo S">
+        <a href="#popupS">
+            <img src="img/S.jpg" alt="漁" width="360" height="360">
+            <figcaption>漁</figcaption>
+        </a>
+    </figure>
+    <figure class="photo T">
+        <a href="#popupT">
+            <img src="img/T.jpg" alt="出会い" width="360" height="360">
+            <figcaption>出会い</figcaption>
+        </a>
+    </figure>
+    <figure class="photo U">
+        <a href="#popupU">
+            <img src="img/U.jpg" alt="Hugging circle - grayish blue & yellow" width="360" height="360">
+            <figcaption>Hugging circle - grayish blue & yellow</figcaption>
+        </a>
+    </figure>
+      <!-- 追加の作品はここに -->
+ </div>
+</section>
+
+<!---------- gallery popup---------->
+<div class="popup" id="popupA">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/A.jpg" alt="Hugging circle - turquoise blue" width="500" height="500">
+        <div class="info">
+            <h2>Hugging circle - turquoise blue</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=72217 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div>
+<div class="popup" id="popupB">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/B.jpg" alt="Peaceful-3rd" width="500" height="500">
+        <div class="info">
+            <h2>Peaceful-3rd</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=71003 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupC">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/C.jpg" alt="再会" width="500" height="500">
+        <div class="info">
+            <h2>再会</h2>
+            <p>Reunion</p>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=64309 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div>
+<div class="popup" id="popupD">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/D.jpg" alt="peaceful-2nd" width="" height="500">
+        <div class="info">
+            <h2>peaceful-2nd</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=64310 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupE">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/E.jpg" alt="Just be yourself-pink&khaki" width="500" height="500">
+        <div class="info">
+            <h2>Just be yourself-pink&khaki</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=71060 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div>
+<div class="popup" id="popupF">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/F.jpg" alt="恋占い" width="500" height="500">
+        <div class="info">
+            <h2>恋占い</h2>
+            <p>Love fortune-telling</p>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=63968 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupG">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/G.jpg" alt="Hugging circle - blood red" width="500" height="500">
+        <div class="info">
+            <h2>Hugging circle - blood red</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=72218 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupH">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/H.jpg" alt="和み" width="500" height="500">
+        <div class="info">
+            <h2>和み</h2>
+            <p>Nagomi</p>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=71002 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupI">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/I.jpg" alt="誠心-silver2" width="500" height="500">
+        <div class="info">
+            <h2>誠心-silver2</h2>
+            <p>Sincerity-silver2</p>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=71001 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupJ">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/J.jpg" alt="Crack of light" width="500" height="500">
+        <div class="info">
+            <h2>Crack of light</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=66691 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupK">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/K.jpg" alt="Shadow - blood red & blue green" width="500" height="500">
+        <div class="info">
+            <h2>Shadow - blood red & blue green</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=73561 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupL">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/L.jpg" alt="Hugging circle - yellow & gray" width="500" height="500">
+        <div class="info">
+            <h2>Hugging circle - yellow & gray</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=73562" class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupM">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/M.jpg" alt="peaceful-2nd" width="500" height="500">
+        <div class="info">
+            <h2>peaceful-2nd</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=64310 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupN">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/N.jpg" alt="Peaceful-red" width="500" height="500">
+        <div class="info">
+            <h2>Peaceful-red</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=64311 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupO">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/O.jpg" alt="Circle of peace-large" width="500" height="500">
+        <div class="info">
+            <h2>Circle of peace-large</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=66123 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupP">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/P.jpg" alt="進" width="500" height="500">
+        <div class="info">
+            <h2>進</h2>
+            <p>Move on</p>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=63837 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupQ">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/Q.jpg" alt="Hugging circle - beige & green" width="500" height="500">
+        <div class="info">
+            <h2>Hugging circle - beige & green</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=74078 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupR">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/R.jpg" alt="誠心-silver1" width="500" height="500">
+        <div class="info">
+            <h2>誠心-silver1</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=70999 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupS">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/S.jpg" alt="漁" width="500" height="500">
+        <div class="info">
+            <h2>漁</h2>
+            <p>Big catch</p>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=63970 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupT">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/T.jpg" alt="出会い" width="500" height="500">
+        <div class="info">
+            <h2>出会い</h2>
+            <p>Fateful encounter</p>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=63838 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+<div class="popup" id="popupU">
+    <div class="overlay" onclick="location.href='#';"></div><!-- ポップアップの背面にあるオーバーレイ部分をクリックすると、ポップアップを閉じるためのリンクに移動する機能 -->
+    <div class="popup-content">
+        <span class="close"><a href="#">&times;</a></span>
+        <img src="img/U.jpg" alt="Hugging circle - grayish blue & yellow" width="500" height="500">
+        <div class="info">
+            <h2>Hugging circle - grayish blue & yellow</h2>
+            <a href="https://www.tagboat.com/products/detail.php?product_id=74077 " class="shop-btn" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="14" height="14"></a>
+        </div>
+    </div>
+</div> 
+
+<!---------- line ---------->
+<div class="custom-hr"></div>
+
+<!---------- about ---------->
+<section>
+    <div class="about-exhibition" id="about">
+        <img src="img/icon.jpg" alt="itayautaプロフィール画像" class="icon"  width="200" height="200">
+        <div class="about-exhibition-text">
+            <div class="about">
+                <h2>板谷　うた　/　uta itaya</h2>
+                <p>2020年の自粛期間中のある日、手元にあったペンで突然模様を描き始めました。模様やカタチを埋めることで自分の心が満たされていく感覚があり、カタチが集まり重なることに安心感と暖かさを感じるようになりました。細胞のような蠢く模様たちがキャンバスの中で生命を宿しカタチを成します。そして内なるエモーションと無意識の世界を融合させ、美しさを生みだしています。丸は形の中で一番愛くるしく、優しく、包み込んでくれるような暖かさがあり、丸を人の心そのものと捉え作品を制作しています。</p>
+            </div>
+            <div class="exhibition" id="exhibition">
+                <h2>exhibition</h2>
+                <p>1998年　愛知県生まれ 名城大学卒業 
+                    <br>2020年から独学で創作活動をはじめる
+                    <br>2020年12月　「細密展16」（アートコンプレックスセンター）
+                    <br>2021年8月　「INDEPENDENT TOKYO 2021」
+                    <br>2021年8月　個展（名古屋・Golden Child Cafe）
+                    <br>2021年10月　個展「Monochrome voice」(名古屋・MONSTERIUM)
+                    <br>2021年11月　個展「Monochrome voice」(三越 名古屋栄 ARTECASA)
+                    <br>2022年4月　「my color」（東京・gallery 201）
+                    <br>2022年5月　個展「Monochrome voice」（名古屋・Masa cafe）
+                    <br>2022年9月　個展「Flow」（名古屋・マルキーズ）
+                    <br>2022年10月　「Art in tokvo YNK」(東京スクエアガーデン）
+                    <br>2022年11月　「100人10」（東京ミッドタウン）
+                    <br>2022年12月　「Art is…」（東京・WHAT CAFE)
+                    <br>2023年1月　「5人展」（東京・美の起原）
+                    <br>2023年5月　「10人展」（東京・between the arts）
+                    <br>2023年5月　「PAINTING THE BAG」（名古屋・松坂屋）
+                    <br>2023年6月　「MINIO展」（東京・MASATAKAcontemporary）
+                    <br>2023年8月　「INDEPENDENT TOKYO 2023」
+                    <br>2023年10月　「DDD 3人展」(東京・DDD art gallery)
+                    <br>2023年11月　個展「Move」（名古屋・マルキーズ）
+                    <br>2023年12月　「15人展　Nice to meet you.」（兵庫県・ワールドタイムズ）
+                    <br> 2024年6月　「MINIO展」（東京・MASATAKAcontemporary）
+                    <br>2024年6月　「DAZZLE 5人展」（東京・銀座画廊　美の起原）
+                    <br>2024年7月　個展「Hugging」（東京・22CAFE）</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!---------- line ---------->
+<div class="custom-hr"></div>
+
+<!---------- contact ---------->
+<section >
+    <div class="contact" id="contact">
+        <h2>contact</h2>
+        <form class="contact-form">
+            <p>name</p>
+             <input type="text" placeholder="お名前を入力してください" required>
+            <p>mail</p>
+             <input type="email" placeholder="メールアドレスを入力してください" required>
+            <p>phone</p>
+             <input type="tel" placeholder="電話番号を入力してください" required>
+            <p>message</p>
+             <textarea placeholder="メッセージを入力してください" rows="4" required></textarea>
+            <div class="contact-form-btn">
+                <button type="submit">send your message　≫</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!---------- line ---------->
+<div class="custom-hr"></div>
+
+<!---------- footer ---------->
+<footer>
+    <div class="footer-top">
+        <div class="footer-logo">
+            <a href="#"><p class="footer-logo1">uta itaya</p></a>
+            <p class="footer-logo2">板谷　うた</p>
+        </div>
+        <a href="https://www.instagram.com/uta_itaya/" target="_blank"><img src="img/instagram.png" alt="Instagramアイコン" width="24" height="24"></a>
+    </div>
+    <nav>
+        <a href="#gallery">gallery</a>
+        <a href="#about">about</a>
+        <a href="#exhibition">exhibition</a>
+        <a href="https://www.tagboat.com/products/list.php?author_id=1006990" target="_blank">shop<img src="img/link-out.png" class="link-out" alt="外部リンクアイコン" width="16" height="16"></a>
+        <a href="#contact">contact</a>
+    </nav>
+    
+  <p class="copy">&copy; 2024 Itaya Uta. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
